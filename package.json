@@ -2,7 +2,6 @@
   "name": "bfs",
   "version": "1.0.0",
   "description": "Module for asynchronous reading and requiring of JavaScript modules without touching the host FS",
-  "main": "index.js",
   "scripts": {
     "test": "jest"
   },
