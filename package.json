@@ -1,0 +1,40 @@
+{
+  "name": "bfs",
+  "version": "1.0.0",
+  "description": "Module for asynchronous reading and requiring of JavaScript modules without touching the host FS",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foresthoffman/bfs.git"
+  },
+  "keywords": [
+    "stream",
+    "require",
+    "buffer",
+    "tar"
+  ],
+  "author": "Forest Hoffman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/foresthoffman/bfs/issues"
+  },
+  "homepage": "https://github.com/foresthoffman/bfs#readme",
+  "dependencies": {
+    "path": "^0.12.7",
+    "tar-stream": "^2.1.0"
+  },
+  "devDependencies": {
+    "@coder/logger": "^1.1.3",
+    "@types/jest": "^24.0.15",
+    "@types/node": "^12.6.2",
+    "@types/tar-stream": "^1.6.1",
+    "child_process": "^1.0.2",
+    "fs": "^0.0.1-security",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.3"
+  }
+}

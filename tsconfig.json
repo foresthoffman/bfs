@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"module": "commonjs",
+		"lib": [
+			"es2017"
+		],
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"strict": true,
+		"declaration": true,
+		"outDir": "dist",
+		"sourceMap": true
+	},
+	"include": [
+		"src/**/*",
+		"test/**/*"
+	],
+	"exclude": [
+		"node_modules",
+	]
+}

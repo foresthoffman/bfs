@@ -1,0 +1,6 @@
+*.png
+*.jpg
+*.svg
+dist
+test/modules.tar
+!test/modules/node_modules
