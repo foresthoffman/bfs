@@ -5,7 +5,6 @@
   "scripts": {
     "test": "jest",
     "build": "tsc -p tsconfig.json && cp -R ./dist/src/* ./dist/ && rm -rf ./dist/src",
-    "postinstall": "if [ ! -d dist ]; then npm run build; fi"
   },
   "main": "dist/bfs.js",
   "types": "dist/bfs.d.ts",
