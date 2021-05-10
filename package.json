@@ -4,7 +4,7 @@
   "description": "Module for asynchronous reading and requiring of JavaScript modules without touching the host FS",
   "scripts": {
     "test": "jest",
-    "build": "tsc -p tsconfig.json && cp -R ./dist/src/* ./dist/ && rm -rf ./dist/src",
+    "build": "tsc -p tsconfig.json && cp -R ./dist/src/* ./dist/ && rm -rf ./dist/src"
   },
   "main": "dist/bfs.js",
   "types": "dist/bfs.d.ts",
